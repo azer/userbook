@@ -51,7 +51,7 @@ users.login({ email: 'foo@bar.com', authkey: 'a3B21c' }, function (error, record
 To just read a record:
 
 ```js
-users.read('foo@bar.com', function (error, user) {
+users.io.get('foo@bar.com', function (error, user) {
   user.authkey
   // => a1B23d
 })
