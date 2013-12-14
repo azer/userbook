@@ -1,0 +1,34 @@
+{
+  "name": "userbook",
+  "version": "0.0.0",
+  "description": "LevelDB Based Module To Store And Manage Users",
+  "main": "index.js",
+  "scripts": {
+    "test": "prova"
+  },
+  "dependencies": {
+    "new-error": "*",
+    "sanitize-object": "*",
+    "local-debug": "*",
+    "comp": "0.0.3",
+    "attr": "0.0.2",
+    "password-hash": "~1.2.1",
+    "level-json": "0.0.2"
+  },
+  "devDependencies": {
+    "prova": "*"
+  },
+  "keywords": [
+    "users",
+    "level",
+    "people",
+    "user",
+    "register"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/userbook.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD"
+}
