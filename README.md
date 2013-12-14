@@ -1,6 +1,6 @@
 ## userbook
 
-LevelDB Based Module To Store And Manage Users.
+LevelDB Based User Registry For NodeJS
 
 ## Install
 
