@@ -1,6 +1,6 @@
 {
   "name": "userbook",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "LevelDB Based Module To Store And Manage Users",
   "main": "index.js",
   "scripts": {
