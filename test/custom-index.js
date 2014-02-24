@@ -10,7 +10,8 @@ it('customizes index field', function(done){
       if (error) return done(error);
 
       expect(user.authkey).to.equal(sameuser.authkey);
-      done();
+
+      users.login({ name: 'eggs', password: 'abcdef' }, done);
     });
   });
 });
