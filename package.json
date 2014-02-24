@@ -4,20 +4,22 @@
   "description": "LevelDB Based Module To Store And Manage Users",
   "main": "index.js",
   "scripts": {
-    "test": "prova"
+    "test": "prova test/* --cs"
   },
   "dependencies": {
     "new-error": "*",
     "local-debug": "*",
     "comp": "0.0.3",
-    "attr": "0.0.2",
     "password-hash": "~1.2.1",
-    "level-json": "0.0.2",
     "sanitize-object": "0.0.2",
-    "checkfor": "0.0.3"
+    "checkfor": "0.0.3",
+    "property": "~1.0.0",
+    "level-json": "0.0.4",
+    "propertify": "0.0.0"
   },
   "devDependencies": {
-    "prova": "*"
+    "prova": "*",
+    "level-client": "*"
   },
   "keywords": [
     "users",

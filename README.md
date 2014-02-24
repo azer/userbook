@@ -51,7 +51,7 @@ users.login({ email: 'foo@bar.com', authkey: 'a3B21c' }, function (error, record
 To just read a record:
 
 ```js
-users.io.get('foo@bar.com', function (error, user) {
+users.read('foo@bar.com', function (error, user) {
   user.authkey
   // => a1B23d
 })
@@ -69,3 +69,9 @@ users = require('userbook')('./data-users', {
 ```
 
 The reference of field options is at [github.com/azer/checkfor](http://github.com/azer/checkfor)
+
+## More Info
+
+* See *test/custom-index.js* for customizing indexes.
+* See *test/io.js* for reusing existing LevelDB client in userbook.
+* See *test/prefix.js* for changing key prefixes from `users:` to something else.

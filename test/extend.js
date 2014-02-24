@@ -12,9 +12,16 @@ describe('extending', function(){
       expect(user.email).to.equal('azer@kodfabrik.com');
       expect(user.password).to.not.exist;
       expect(user.authkey).to.exist;
-      done();
+
+      users.read('azer@kodfabrik.com', function (error, sameuser) {
+        if (error) return done(error);
+
+        expect(user.authkey).to.equal(sameuser.authkey);
+        done();
+      });
     });
   });
+
 
   after(users.io.destroy);
 });
