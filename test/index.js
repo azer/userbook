@@ -16,7 +16,7 @@ describe('create', function(){
   it('fails if given e-mail is already registered', function(done){
     users.create({ email: 'azer@kodfabrik.com', password: '123456' }, function (error, user) {
       expect(user).to.not.exist;
-      expect(error.message).to.equal('Oops! azer@kodfabrik.com is already registered!');
+      expect(error.message).to.equal('Oops! "azer@kodfabrik.com" is already registered!');
       done();
     });
   });
