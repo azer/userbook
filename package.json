@@ -14,7 +14,7 @@
     "sanitize-object": "0.0.2",
     "checkfor": "0.0.3",
     "property": "~1.0.0",
-    "level-json": "0.0.4",
+    "level-json": "0.0.x",
     "propertify": "0.0.0"
   },
   "devDependencies": {
