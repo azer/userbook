@@ -9,7 +9,6 @@ describe('create', function(){
       expect(user.authkey).to.exist;
       expect(user.foo).to.not.exist;
       expect(user.qux).to.not.exist;
-      done();
     });
   });
 
