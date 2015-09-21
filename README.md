@@ -13,7 +13,7 @@ $ npm install userbook
 Creating a user:
 
 ```js
-users = require('userbook')('./data-users')
+var users = require('userbook')('./data-users')
 
 users.create({ email: 'foo@bar.com', password: 123456 }, function (error, user) {
 
